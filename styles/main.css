@@ -92,16 +92,17 @@ h2 {
 }
 
 h3 {
-    margin: 0px 10px 50px 10px;
     text-align: center;
+    margin-left: 10px;
 }
 
-.blog-heading {
+header {
     border-bottom: 1px;
     border-bottom-style: solid;
     border-bottom-color: #373737;
-    width: 90%;
-    margin-bottom: 50px;
+    position: fixed;
+    width: 83%;
+    z-index: 1;
 }
 
 img {
@@ -120,4 +121,23 @@ svg {
     padding: 10px 15px 10px 15px;
     font-size: small;
     font-family: Lato;
+}
+
+.footer img {
+    width: 100px;  
+}
+
+.footer h3 {
+    text-align: left;
+    text-decoration: underline;
+    background-color: #373737;
+}
+
+.footer p {
+    background-color: #373737;
+    margin-top: 50px;
+}
+
+.latest-posts {
+    margin-top: 200px;
 }
