@@ -1,0 +1,123 @@
+* {
+    background-color: #F4F4F4;
+    font-family: Raleway;
+    color: #C0B283;
+}  
+/*
+* {
+    border: 1px solid red !important;
+}
+*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin-bottom: 7px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-size: 3em;
+    font-family: Lato;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+h3 {
+    margin: 0px 10px 50px 10px;
+    text-align: center;
+}
+
+.blog-heading {
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #373737;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+img {
+    margin: 0px 10px 0px 10px;
+    object-fit: contain;
+}
+
+svg {
+    fill: #C0B283;
+    margin-top: 60px;
+}
+
+.footer {
+    background-color: #373737;
+    margin: 20px 20px 20px 0px;
+    padding: 10px 15px 10px 15px;
+    font-size: small;
+    font-family: Lato;
+}
