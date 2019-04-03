@@ -100,9 +100,6 @@ header {
     border-bottom: 1px;
     border-bottom-style: solid;
     border-bottom-color: #373737;
-    position: fixed;
-    width: 83%;
-    z-index: 1;
 }
 
 img {
@@ -139,10 +136,6 @@ svg {
     margin-top: 50px;
 }
 
-.space
-{
-    height: 180px;
-}
 
 .blog-post {
     background-image: url(/Users/joannaklimas/Desktop/Dev-Academy/joanna-klimas.github.io/images/black-and-white-coding.jpg);
