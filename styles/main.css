@@ -120,25 +120,13 @@ p {
 
 .footer {
     background-color: #373737;
-    margin: 20px 20px 20px 0px;
     padding: 10px 15px 10px 15px;
     font-size: small;
     font-family: Lato;
 }
 
-.footer img {
-    width: 100px;  
-}
-
-.footer h3 {
-    text-align: left;
-    text-decoration: underline;
-    background-color: #373737;
-}
-
 .footer p {
     background-color: #373737;
-    margin-top: 50px;
 }
 
 #post-title {
