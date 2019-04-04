@@ -136,17 +136,16 @@ svg {
     margin-top: 50px;
 }
 
-
-.blog-post {
-    background-image: url(/Users/joannaklimas/Desktop/Dev-Academy/joanna-klimas.github.io/images/black-and-white-coding.jpg);
-    height: 300px;
-    background-size: cover;
-    padding: 5px 0px 0px 10px;
-    text-transform: lowercase;
-    font-size: 30px;
-    color: #373737;
+#post-title {
+    height: 400px;
 }
 
-#content {
-    padding: 30px;
+.print-screen {
+    height: 600px;
+    margin-top: 40px;
+}
+
+#last-p {
+    margin-bottom: 50px;
+    font-weight: bolder;
 }

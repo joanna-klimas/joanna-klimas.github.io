@@ -4,7 +4,7 @@
     <title>Stories and Legends (PAGE title) </title>
     <meta charset="UTF-8">
     <link href="/Users/joannaklimas/Desktop/Dev-Academy/joanna-klimas.github.io/styles/main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
   </head>
   
   
@@ -25,17 +25,49 @@
       
       <div class="row space">
       </div>
-      
+    
+
+      <div class="row">  
+          <h2 class="col-12">4 April 2019</h2>
+        </div>
+
+
       <div class="row">
-        <h3>10 November 2010</h3>
+        <img class="col-6" id="post-title"src="/Users/joannaklimas/Desktop/Dev-Academy/joanna-klimas.github.io/images/black-and-white-coding.jpg" alt="black and white image of a laptop on a desk">
+        <div class="col-6">
+          <h1>Inline, block, or maybe inline-block?</h1>
+          <p>Each of the HTML elements has a default „display” property. For example, all of the text will always be floating letter by letter, even if we add anchor elements to it. That’s because its default display property is „inline”. Elements displayed inline cannot have height or length changed via CSS.</p>
+          <p>Let’s look at the example below. The „a” element has its’ default display property set as „inline”. When I change the height of the element to 100px, nothing happens. That’s because I cannot change height of an inline element.</p>
+        </div>
       </div>
       
 
-      <div class="row">
-        <h1 class="col-6 blog-post">Relative, absolute, and fixed...?</h1>
-        <p class="col-6" id="content">Te Houtaewa was the fastest runner of his day and played many pranks on his peoples enemies. morning his mother wanted kumara for the hangi (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a short distance away. He agreed to fetch the kumara and told his mother to prepare the hangi. Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as he wanted to annoy some Te Rarawa people who lived there. Carrying two large baskets for the kumara, he ran like the wind, completing the journey over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in the few hours it takes a good hangi to heat up properly. On reaching Ahipara, he went straight to the people's kumara pataka (storehouse for the sweet potatoes) situated at the foot of the hill Whangatauatia.</p>
-      </div>  
+    <div class="row">
+      <img class="col-12 print-screen" src="/Users/joannaklimas/Desktop/Dev-Academy/joanna-klimas.github.io/images/inline-a-element-height.png" alt="print screen with a element height set to 100px">
+    </div>  
+
+    <div class="row">
+        <p class="col-12">What is going to happen when I change display property to block? The link changes into a separate block and places itself in a separate space that can have its’ height and length changed with css. Since I left the height at 100px, changing display property created a box of this height with the „a” element inside of it.</p>  
     </div>
+ 
+
+    <div class="row">
+      <img class="col-12 print-screen" src="/Users/joannaklimas/Desktop/Dev-Academy/joanna-klimas.github.io/images/a-block.png" alt="printscreen of an a element set as block">
+    </div>
+
+    <div class="row">
+      <p class="col-12">Now I changed a display to inline-block. This one joins the best of previous properties. So my „a” element is back in line with the text, but also has a heigth property set to 100px.</p>
+    </div>
+
+    <div class="row">
+        <img class="col-12 print-screen" src="/Users/joannaklimas/Desktop/Dev-Academy/joanna-klimas.github.io/images/a-inline-block.png" alt="printscreen of an a element set as inline-block">
+    </div>
+
+
+    <div class="row">
+        <p class="col-12" id="last-p">The example of „a” element may not sound too useful - who wants to create a box for a link? Try to change that property for an image - it will give you a lot more interesting results.</p>
+      </div>
+
 
     <div class="row footer">
 
