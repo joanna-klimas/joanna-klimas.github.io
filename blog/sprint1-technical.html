@@ -1,161 +1,267 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Stories and Legends (PAGE title) </title>
-    <meta charset="UTF-8">
-    <link href="../styles/main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
-  </head>
+<head>
+  <title>Technical blog</title>
+  <meta charset="UTF-8">
+  <link href="../styles/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+</head>
   
   
-  <body>
+<body>
 
-    <div class="grid">
-      <header>
-        <div class="row">
-          <h1 class="col-12">Joanna Klimas</h1>
+    
+  <div class="grid">
+
+
+    <header>
+      <h1 class="col-12 row">Joanna Klimas</h1>
+      <div class="row">
+        <h4 class="col-11">Web Development Blog</h4>
+        <a href="../index.html"><h3>Home</h3></a>
+        <a href="./sprint1-technical.html"><h3>Blog</h3></a>
+      </div>  
+    </header>  
+    
+    
+    <div class="row space">
+      </div>
+      
+      
+    <h4 class="row col-12" id="post-2">8 May 2019</h4>
+  
+    <img class="row col-12 post-title" src="../images/board-game-challenge-chess-860377 (1).jpg" alt="chess game">
+     
+      <div class="row">
+  
+        <div class="col-3"></div>    
+        <div class="col-6">
+          
+          <h1>Problem solving techniques</h1>
+          
+          <p>
+            Going through katas I came across a few problems that got me stuck. Sometimes I needed someone else to push me the right direction. Sometimes I was able to work the solution out myself. This is going to be an example of a second case. It was when I worked on kata on build-in functions. After relatively easily completing previous ones, I was quite confident about that one too. For some reason I thought I will only need to call one of the build-in functions, like join(), and the kata will be completed. 
+          </p>
+
+          <p>
+            When I started solving it I realized that it wouldn’t be as easy as I anticipated. I was trying to find a solution for some time and than I’ve noticed I’m actually just trying to guess instead using some of the problem solving techniques. And let me tell you, it took me a few hours to come to this conclusion. 
+          </p>
+
+          <p>
+              So I restarted my work, sit to it with a fresh mind, and started with writing a pseudocode. After that, in shockingly short period of time, I also wrote a working function… 
+          </p>
+
+          <p>
+              Since the beginning of foundations I was quite skeptical about problem solving process. When I first read it, I thought it was quite obvious. We are all adults and we solved a few problems in our lives before, so I suppose we all should have our own processes. Well, as good (or not) as they work in every day life, they are not always applicable to code writing. And that’s pretty much what I took out of this situation. There is a reason why we are being introduced to every single module in this course.
+          </p>
+          
+          <p class="last-p">
+          </p>
+       
         </div>
-        <div class="row">
-          <h4 class="col-11">Web Development Blog</h4>
-          <a href="../index.html"><h3>Home</h3></a>
-          <a href="./sprint1-technical.html"><h3>Blog</h3></a>
-        </div>  
-      </header>  
+       
+        <div class="row-3"></div>
+      </div> 
+
+
+    <div class="row space">
+    </div>
+    
+    
+    <h4 class="row col-12" id="post-2">24 April 2019</h4>
+
+    <img class="row col-12 post-title" src="../images/barbell-building-challenge-1552252.jpg" alt="barbell on the gym's floor">
+   
+    <div class="row">
+
+      <div class="col-3"></div>    
+      <div class="col-6">
+        
+        <h1>Lots of JS - my summary of sprint 3</h1>
+        
+        <p>
+          Let’s imagine that you are not an EDA student, facilitator or teacher (let’s face it, if you read this chances are you are). You have never heard of HTML, CSS and JS and you really want to understand what they are. All three of them build a lot of web pages that you navigate through every day. I will not be original here and use "the house analogy" to describe relationships between them.
+        </p>
+      
+      </div>
+      <div class="row-3"></div>
+    </div> 
+    
+    
+    <div class="row">
+      <div class="col-3"></div>      
+      <div class="col-6">
+                
+        <p>
+          HTML is all the heavy stuff. Bricks, wood, everything that is needed on a construction site. With HTML we would lay foundations, build the walls and roof. Once all that is done, we’d hire an interior designer. That’s CSS. Painting the walls, making the flooring, adding some furniture. JS would come next and make the magic happen. Sound system, maybe a game console, Alexa and Siri, maybe an alarm and cameras (I come from Europe, we like to be safe;).
+        </p>
+  
+        <p>
+          JS is like any other language. If you tried learning some, you know that first you start understanding when others speak, and after awfully long and painful time you start speaking yourself. With lots of mistakes at first, getting better and better every day as you train. JS is the same. And as any other language (besides Arabic), reads from top to bottom, from left to right. That’s control flow. What can break it is conditionals and loops.
+        </p>
+  
+        <p>
+          I will take an example of my dog to describe a loop. When he wants to play he brings one of his toys to me (var i = 0) and I throw it for him. He runs, catches it and brings it back to me (i++). I again throw, he again runs, catches and brings it back. If it was up to him this would be an infinite loop… He never gets tired. Fortunately I do, so when I’m done, I break the loop and we finally continue with our lives (my dog actually does not, he still tries to play).
+        </p>
+                              
+        <h2>The DOM</h2>
+                
+        <p>
+          Let’s say that for some unknown and possibly wrong reason you have decided to write all of your code in one line. Unlike most of the people, the DOM is a tool that will make sense of it. It reads the code, looks for logic and builds a tree of parents, children and siblings out of it. The DOM allows us to access all of the elements on the page and manipulate them using devtools.
+        </p>
+              
+        <h2>Accessing data in arrays and in objects</h2>
+                
+        <p>
+          Accessing data in arrays is a pretty straight forward task. Quoting Kirupa, an array <span class="quote">„helps store, retrieve, and manipulate a collection of data”</span>. Here is an example of an array:
+        </p>
+    
+        <p>
+          var weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+        </p>
+               
+        <p>
+          Each of the strings in this array has an index, starting with 0 assigned to Monday. To access the strings we need to use their indexes:
+        </p>
+  
+        <p>
+          weekDays[3] will access "Thursday”.
+        </p>
+  
+        <p>
+          Voila!
+        </p>
+           
+        <p>
+          There are a few ways of accessing data in the objects. Two of them are fairly similar. Let’s take a simple object like this.
+        </p>
+    
+        <p>
+          var person = { </br> name: "Joanna", </br>age: 57, //obviously !== true</br>interests: "music"</br>}
+        </p>
+                
+        <p>
+          We can access property of this object using dot notation like this: </br>person.interests</br>returns "music"</br><br>or bracket notation like this</br><br>person["age"]</br>returns 57
+        </p>
+                
+        <h2> Functions</h2>
+                
+        <p>
+          Moving onto the functions. Functions are reusable pieces of code. Once defined can be called when we want the magic to happen.
+        </p>
+        
+        <p>
+          I’m out of batteries. Writing this blog post took me so much time, as a result I can’t elaborate on functions:)
+        </p>
+  
+        <p class="last-p">
+        </p>
+
+      </div>
+      <div class="col-3"></div>
+
+    </div>
       
 
-      <div class="row space">
-        </div>
-    
-      <div class="row" id="post-2">  
-            <h4 class="col-12">24 April 2019</h4>
-      </div>
-
-      <div class="row">
-          <img class="col-6" id="post-title" src="../images/barbell-building-challenge-1552252.jpg" alt="#">
-          <div class="col-6">
-            <h1>Lots of JS - my summary of sprint 3</h1>
-            <p>Let’s imagine that you are not EDA student, facilitator or teacher (let’s face it, if you read this chances are you are). You have never heard of HTML, CSS and JS and you really want to understand what they are. All three of them build a lot of web pages that you navigate through every day. I will not be original here and use "the house analogy" to describe relationships between them.
-            </p>
-          </div>
-        </div>  
-        <div class="row">
-            <div class="col-10">
-                <p>HTML is all the heavy stuff. Bricks, wood, everything that is needed on a construction site. With HTML we would lay foundations, build the walls and roof. Once all that is done, we’d hire an interior designer. That’s CSS. Painting the walls, making the flooring, adding some furniture. JS would come next and make the magic happen. Sound system, maybe a game console, Alexa and Siri, maybe an alarm and cameras (I come from Europe, we like to be safe;).
-                </p>
-                <p>JS is like any other language. If you tried learning some, you know that first you start understanding when others speak, and after awfully long and painful time you start speaking yourself. With lots of mistakes at first, getting better and better every day as you train. JS is the same. And as any other language (besides Arabic), reads from top to bottom, from left to right. That’s control flow. What can break it is conditionals and loops.
-                </p>
-                <p>I will take an example of my dog to describe a loop. When he wants to play he brings one of his toys to me (var i = 0) and I throw it for him. He runs, catches it and brings it back to me (i++). I again throw, he again runs, catches and brings it back. If it was up to him this would be an infinite loop… He never gets tired. Fortunately I do, so when I’m done, I break the loop and we finally continue with our lives (my dog actually does not, he still tries to play).
-                </p>
-                
-                
-                <h2>The DOM</h2>
-                
-                <p>Let’s say that for some unknown and possibly wrong reason you have decided to write all of your code in one line. Unlike most of the people, the DOM is a tool that will make sense of it. It reads the code, looks for logic and builds a tree of parents, children and siblings out of it. The dom allows us to access all the elements on the page and manipulate them using devtools.
-                </p>
-                
-                
-                <h2>Accessing data in arrays and in objects</h2>
-                
-                <p>Accessing data in arrays is a pretty straight forward task. Quoting Kirupa, an array <span class="quote">„helps store, retrieve, and manipulate a collection of data”</span>. Here is an example of an array:
-                </p>
-                <p>var weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-                </p>
-                <p>Each of the strings in an array has an index, starting with 0 assigned to Monday. To access the strings we need to use their indexes:
-                </p>
-                <p>weekDays[3] will access "Thursday”.
-                </p>
-                <p>Voila!
-                </p>
-                <p>There are a few ways of accessing data in the objects. Two of them are fairly similar. Let’s take a simple object like this.
-                </p>
-                <p>var person = { </br>
-                  name: "Joanna", </br>
-                  age: 57, //obviously !== true</br>
-                  interests: "music"</br>
-                }</p>
-                
-                <p>We can access property of this object using dot notation like this: </br>
-                
-                person.interests</br>
-                returns "music"</br>
-                <br>
-                or bracket notation like this</br>
-                <br>
-                
-                person["age"]</br>
-                returns 57</p>
-                
-                <h2> Functions</h2>
-                
-                <p>Moving onto the functions. Functions are reusable pieces of code. Once defined can be called when we want the magic to happen.
-                </p>
-                <p>I’m out of batteries. Writing this blog post took me so much time, as a result I can’t elaborate on functions:)
-                  </p>
-              <p id="last-p">
-              </p>
-            </div>
-        </div>
-      
-      <div class="row space">
-      </div>
+    <div class="row space"> 
+    </div>
     
 
-      <div class="row" id="post-1">  
-          <h4 class="col-12">4 April 2019</h4>
-        </div>
+    <div class="row" id="post-1">  
+      <h4 class="col-12">4 April 2019</h4>
+    </div>
 
 
-      <div class="row">
-        <div class="col-12">
-          <h1>Inline, block, or maybe inline-block?</h1>
-          <p>Each of the HTML elements has a default „display” property. For example, all of the text always floats letter by letter, even if we add anchor elements to it. That’s because its default display property is „inline”. Elements displayed inline cannot have height or length changed via CSS.</p>
-          <p>Let’s look at the example below. The „a” element has its’ default display property set as „inline”. When I change the height of the element to 100px, nothing happens. That’s because I cannot change height of an inline element.</p>
-        </div>
+    <div class="row">
+      <div class="col-3">
       </div>
+      <div class="col-6">
+
+        <h1>Inline, block, or maybe inline-block?</h1>
+
+        <p>
+          Each of the HTML elements has a default „display” property. For example, all of the text always floats letter by letter, even if we add anchor elements to it. That’s because its default display property is „inline”. Elements displayed inline cannot have height or length changed via CSS.
+        </p>
+
+        <p>
+          Let’s look at the example below. The „a” element has its’ default display property set as „inline”. When I change the height of the element to 100px, nothing happens. That’s because I cannot change height of an inline element.
+        </p>
+
+      </div>
+      <div class="col-3"></div>
+     
+    
+    </div>
       
 
     <div class="row">
       <img class="col-12 print-screen" src="../images/inline-a-element-height.png" alt="print screen with an element height set to 100px">
     </div>  
 
+
     <div class="row">
-        <p class="col-12">What is going to happen when I change display property to block? The link changes into a separate block and places itself in a separate space that can have its’ height and length changed with css. Since I left the height at 100px, changing display property created a box of this height with the „a” element inside of it.</p>  
+      <div class="col-3">
+
+      </div>
+      <p class="col-6">
+        What is going to happen when I change display property to block? The link changes into a separate block and places itself in a separate space that can have its’ height and length changed with css. Since I left the height at 100px, changing display property created a box of this height with the „a” element inside of it.
+      </p>  
+      <div class=""col-3>
+      </div>
     </div>
- 
+
+    
 
     <div class="row">
       <img class="col-12 print-screen" src="../images/a-block.png" alt="printscreen of an a element set as block">
     </div>
 
-    <div class="row">
-      <p class="col-12">Now I changed a display to inline-block. This one joins the best of previous properties. So my „a” element is back in line with the text, but also has a heigth property set to 100px.</p>
-    </div>
 
     <div class="row">
-        <img class="col-12 print-screen" src="../images/a-inline-block.png" alt="printscreen of an a element set as inline-block">
-    </div>
-
-
-    <div class="row">
-        <p class="col-12" id="last-p">The example of „a” element may not sound too useful - who wants to create a box for a link? Try to change that property for an image - it will give you a lot more interesting results.</p>
+      <div class=""col-3>
       </div>
+      <p class="col-6">
+        Now I changed a display to inline-block. This one joins the best of previous properties. So my „a” element is back in line with the text, but also has a heigth property set to 100px.
+      </p>
+      <div class=""col-3>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <img class="col-12 print-screen" src="../images/a-inline-block.png" alt="printscreen of an a element set as inline-block">
+    </div>
+
+
+    <div class="row">
+
+      <div class="col-3">
+      </div>
+      <p class="col-6 last-p">
+          The example of „a” element may not sound too useful - who wants to create a box for a link? Try to change that property for an image - it will give you a lot more interesting results.
+      </p>
+      <div class="col-3">
+      </div>
+    </div>
 
 
     <div class="row footer">
 
-        <div class="col-2 footer">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis</p>
-        </div>
-
-        <div class="col-2 footer"> 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in r</p>
-        </div>  
-        
-        <p class="col-8 footer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis</p>
       
-      </div>
-    
-    <!-- this is a comment. -->
+      <p class="col-2 footer">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis
+      </p>
+ 
+      <p class="col-2 footer">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in r
+      </p>
+        
+      <p class="col-8 footer">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis
+      </p>
+      
+    </div>
+
   
   </body>
 </html>
