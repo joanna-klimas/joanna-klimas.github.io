@@ -1,88 +1,229 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Joanna's blog</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="./styles/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway:300" rel="stylesheet">
-</head>
-<body>
-  <div class="grid">
-   
-   
-    <header>
-      <div class="row">
-        <h1 class="col-12">Joanna Klimas</h1>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Journey to become a web developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+
+  <body>
+    <section class="hero is-fullheight" style="background-image: url(images/astronomy-colors-dark-957040.jpg); background-repeat: no-repeat; background-position: bottom; background-size: cover;">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <header class="navbar">
+          <div class="container">
+            <div id="navbarMenuHeroC" class="navbar-menu">
+              <div class="navbar-end">
+                <a href="index.html" class="navbar-item is-active has-text-white">
+                  Home
+                </a>
+                <a class="navbar-item has-text-white">
+                  Core Blog
+                </a>
+                <a class="navbar-item has-text-white">
+                  Tech Blog
+                </a>
+              </div>
+            </div>
+          </div>
+        </header>
       </div>
-      <div class="row">
-        <h4 class="col-11">Web Development Blog</h4>
-        <a href="./index.html"><h3>Home</h3></a>
-        <a href="./blog/sprint1-technical.html"><h3>Tech blog</h3></a>
-        <a href="./blog/sprint1-core.html"><h3>Core blog</h3></a>
-      </div>  
-    </header>  
-
-    <div class="row" id="latest-posts">
-      <h3>Latest posts</h3>
-    </div>
-
         
-    <div class="row">
-      <img class="col-4" src="./images/board-game-challenge-chess-860377 (1).jpg" alt="chess game"> 
-      <img class="col-4" src="./images/blue-care-cultivation-736779.jpg" alt="greenhouse with growing plants">
-      <img class="col-4" src="./images/barbell-building-challenge-1552252.jpg" alt="barbell on the fool of the gym">  
-    </div> 
+          <!-- Hero content: will be in the middle -->
+          <div class="hero-body">
+            <div class="container has-text-centered">
+              <h1 class="title has-text-white">
+                Joanna Klimas
+              </h1>
+              <h2 class="subtitle has-text-white">
+                Journey to become a web developer
+              </h2>
+            </div>
+          </div>
+        
+          <div class="hero-foot">
+            <nav class="tabs is-boxed is-fullwidth">
+              <div class="container">
+                <!-- <ul>
+                  <li class="is-active"><a>Overview</a></li>
+                  <li><a>Modifiers</a></li>
+                  <li><a>Grid</a></li>
+                  <li><a>Elements</a></li>
+                  <li><a>Components</a></li>
+                  <li><a>Layout</a></li>
+                </ul> -->
+              </div>
+            </nav>
+          </div>
+        </section>
+
+    <section class="section" style="background-color: #f8f8ff">
+      <div class="container is-fullhd">
+        <h2 class="title is-6">
+          Latest posts:
+        </h2>
+      </div>
+    </section>
 
 
-    <div class="row">
-      <h3 class="col-4"><a href="./blog/sprint1-technical.html#post-3">Problem solving techniques</a></h3>
-      <h3 class="col-4"><a href="./blog/sprint1-core.html#post-4">Neuroplasticity and growth mindset</a></h3>
-      <h3 class="col-4"><a href="./blog/sprint1-technical.html#post-2">Lots of JS - summary of sprint 3</a></h3>
-    </div> 
 
 
-    <div class="row">
-      <img class="col-4" src="./images/adventure-carnival-enjoyment.jpg" alt="people on a caruzelle">
-      <img class="col-4" src="./images/auditorium-benches-chairs-207691.jpg" alt="empty university auditorium with banches and chairs"> 
-      <img class="col-4" src="./images/forest-landscape-nature-6921.jpg" alt="forest">
-    </div> 
+
+    
+    <div class="tile is-ancestor box" style="background-color: #f8f8ff">
+      <div class="tile is-vertical is-8">
+        <div class="tile">
+          <div class="tile is-parent is-vertical">
+            <a href="#"><article class="tile is-child notification has-text-grey" style="background-color:  #e4e4e6;">
+              <p class="title">PROBLEM SOLVING TECHNIQUES</p>
+              <div class="content">
+                <p>
+                  Going through katas I came across a few problems that got me stuck. Sometimes I needed someone else to push me the right direction. Sometimes I was able to work the solution out myself. This is going to be an example of a second case.
+                </p>
+              </div>
+            </article></a>
+            <a href="#"><article class="tile is-child notification has-text-white" style="background-color: #8b008b;">
+              <p class="title">NEUROPLASTICITY AND GROWTH MINDSET</p>
+              <div class="content">
+                <p>
+                  Referring back to my previous post on emotional intelligence, I have to admit that I was wrong about IQ. Looking a little deeper and reading a few articles about growth mindset and neuroplasticity I realized that there is nothing static about our brains, including IQ. In fact, thinking that IQ is a static value is an example of fixed mindset approach.
+                </p>
+              </div> 
+            </article></a>
+          </div>
+          <div class="tile is-parent">
+            <a href="#"><article class="tile is-child notification has-text-grey" style="background-color:  #e4e4e6;">
+              <p class="title">LOTS OF JS - MY SUMMARY OF SPRINT 3</p>
+                <div class="content">
+                  <p>
+                   Let’s imagine that you are not an EDA student, facilitator or teacher (let’s face it, if you read this chances are you are). You have never heard of HTML, CSS and JS and you really want to understand what they are.
+                  </p>
+                </div>
+              <figure class="image is-4by3">
+                <img src="images/barbell-building-challenge-1552252.jpg">
+              </figure>
+            </article></a>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <a href="#"><article class="tile is-child notification has-text-grey" style="background-color:  #e4e4e6;">
+            <p class="title">EMOTIONAL INTELLIGENCE</p>
+            <div class="content">
+              <p>
+                Emotional intelligence is the ability to recognize, interpret and regulate our own feelings and feelings of the others. When I say recognize, I mean take a moment and really understand what do we feel. Is it just anger, or maybe disappointment? Is it happiness? Or maybe pride? Or maybe something else?
+              </p>
+            </div>
+          </article></a>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <a href="#"><article class="tile is-child notification has-text-white" style="background-color: darkslateblue">
+          <div class="content">
+            <p class="title">MY LEARNING PLAN - DRAFT</p>
+            <div class="content">
+              <figure class="image is-4by3">
+                <img src="images/auditorium-benches-chairs-207691.jpg">
+              </figure>
+              <p>
+                My strengths:
+              </p>  
+              <p>
+                Dedication, seeing a big picture, motivation to change my career, high orientation on logic, good interaction with people.
+              </p>
+              <p>  
+                My limitations:
+              </p>
+              <p>
+                Not always following instructions and looking for different paths instead, hard to get into flow if I’m not absolutely passionate about a topic, problems with focusing on end-delivery if project is too long
+              </p>
+            </div>
+          </div>
+        </article></a>
+      </div>
+    </div>
 
 
-    <div class="row">
-      <h3 class="col-4"><a href="./blog/sprint1-core.html#post-3">Emotional intelligence</a></h3>
-      <h3 class="col-4"><a href="./blog/sprint1-core.html#post-2">My learning plan - draft</a></h3>
-      <h3 class="col-4"><a href="./blog/sprint1-core.html#post-1">A quick glimpse into my values</a></h3>
-    </div> 
 
-    <div class="row">
-        <img class="col-4" src="./images/black-and-white-coding.jpg" alt="a desk with a laptop open on code">
-        <img class="col-4" src="http://placekitten.com/399/250" alt="a kitty">
-        <img class="col-4" src="http://placekitten.com/399/250" alt="a kitty"> 
-      </div> 
-  
-  
-      <div class="row">
-          <h3 class="col-4"><a href="./blog/sprint1-technical.html#post-1">inline, block, or maybe inline-block?</a></h3>
-        <h3 class="col-4"><a href="#">Future post</a></h3>
-        <h3 class="col-4"><a href="#">Future post</a></h3>
-      </div> 
-   
-   
-      <div class="row footer">
-        <div class="col-12 footer">
-          <p>
-            contact: joanna.klimas@gmail.com
-          </p>
-          <p>
-            All images come from pexel.com
-          </p>
-        </div>  
+
+
+
+
+
+
+
+
+    <!-- <div class="columns box" style="background-color: #f8f8ff">
+        <div class="column">
+          <figure class="image is-3by2">
+            <a href=""#><img src="../new CSS/images/board-game-challenge-chess-860377 (1).jpg"></a>
+          </figure>
+          <h2>
+            <a href="#" class="has-text-black">Problem solving techniques</a>
+          </h2>
+        </div>
+        <div class="column">
+          <figure class="image is-3by2">
+            <a href="#"><img src="../new CSS/images/blue-care-cultivation-736779.jpg"></a>
+          </figure>
+          <h2>
+            <a href="#" class="has-text-black">Neuroplasticity and growth mindset</a>
+          </h2>
+        </div>
+        <div class="column">
+          <figure class="image is-3by2">
+            <a href="#"><img src="../new CSS/images/barbell-building-challenge-1552252.jpg"></a>
+          </figure>
+          <h2>
+            <a href="#" class="has-text-black">Lots of JS - summary of sprint 3</a>
+          </h2>
+        </div>
       </div>
     
-    
-    </div>
-  </div>
-</body>
+    <div class="columns box" style="background-color: #f8f8ff">
+      <div class="column">
+        <figure class="image is-3by2">
+          <a href="#"><img src="../new CSS/images/adventure-carnival-enjoyment.jpg"></a>
+        </figure>
+        <h2>
+          <a href="#" class="has-text-black">Emotional intelligence</a>
+        </h2>
+      </div>
+      <div class="column">
+        <figure class="image is-3by2">
+          <a href="#"><img src="../new CSS/images/auditorium-benches-chairs-207691.jpg"></a>
+        </figure>
+        <h2>
+          <a href="#" class="has-text-black">My learning plan - draft</a>
+        </h2>
+      </div>
+      <div class="column">
+        <figure class="image is-3by2">
+          <a href="#"><img src="../new CSS/images/forest-landscape-nature-6921.jpg"></a>
+        </figure>
+        <h2>
+          <a href="#" class="has-text-black">A quick glimpse into my values</a>
+        </h2>
+      </div>
+    </div> -->
+
+    <footer class="footer has-text-centered" style="background-color:	#e4e4e6">
+      <a class="icon is-large has-text-grey" href="https://www.linkedin.com/in/joannaklimas/"><i style ="color: darkslateblue;" class="fab fa-linkedin-in fa-2x"></i></a>
+      <a class="icon is-large has-text-grey" href="https://github.com/joanna-klimas"><i style="color: darkslateblue;" class="fab fa-github-alt fa-2x"></i></a>
+      <a class="icon is-large has-text-grey"href="https://www.instagram.com/asiaklimas/"><i style="color: darkslateblue;" class="fab fa-instagram fa-2x"></i></a>
+      <a class="icon is-large has-text-grey"href="https://www.facebook.com/joanna.klimas.5"><i style="color: darkslateblue;" class="fab fa-facebook-f fa-2x"></i></a>
+      <p>
+        e-mail me @ klimas.j.m@gmail.com
+      </p>
+      <p>
+        All images come from pexel.com
+      </p>
+      <p>
+        Build with Bulma
+      </p>  
+    </footer>
+
+  </body>
 </html>
